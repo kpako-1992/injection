@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Ing. Prince de Jésus KPAKO</title>
+  <!-- Lien vers le CSS séparé -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <div class="left">
+      <h1>
+        <span class="lastname">KPAKO KOPIRIWA</span>
+        <span class="firstname">Prince Marlain Dieubeni</span>
+      </h1>
+    </div>
+    <div class="right">
+      <nav>
+        <a href="#intro">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#skills">Compétences</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#sports">Activités sportives</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Bienvenue -->
+  <section id="intro">
+    <h2>Bienvenue</h2>
+    <div class="row">
+      <p>Je suis <strong><span style="color:#00e0c6;">Prince Marlain Dieubeni</span></strong>, Développeur passionné par le web et le design !</p>
+      <img src="image/webo-3.jpg" alt="photo" class="profile">
+    </div>
+    <div class="cv-btn-container">
+      <a href="./pt/Projet.pdf" download>Télécharger mon Projet</a>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="about">
+    <h2>À propos</h2>
+    <div class="row">
+      <p>Je m'appelle <strong><span style="color:#00e0c6;">KPAKO KOPIRIWA</span></strong>, passionné par la création de sites modernes et interactifs. 
+      Je suis ingénieur en réseaux et télécommunications avec plus de 5 ans d'expérience professionnelle. J’ai déployé de nombreuses solutions Cloud, réseaux et VoIP pour des entreprises. Freelance fiable en Développement web (JavaScript, HTML et CSS), rapide et efficace dans le domaine informatique complexe.
+      J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+      <img src="image/Prince.jpg" alt="photo Ing. Prince de Jésus KPAKO" class="profile">
+    </div>
+    <div class="cv-btn-container" style="width: auto; padding-left: 0;">
+      <a href="./cv/kpako_cv.pdf" download>Télécharger mon CV</a>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projects">
+    <h2>Projets</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Déploiement Cloud</h3>
+        <p>Configuration d’une solution réseau et VoIP pour PME.</p>
+        <button>Voir</button>
+      </div>
+      <div class="project">
+        <h3>Simulation Réseau</h3>
+        <p>Simulation avec GNS3 et OMNET++.</p>
+        <button>Voir</button>
+      </div>
+      <div class="project">
+        <h3>Formulaire JS</h3>
+        <p>Formulaire de contact interactif (JavaScript, CSS et HTML).</p>
+        <button>Voir</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="skills">
+    <h2>Compétences</h2>
+    <div class="skills-container">
+      <div class="skills-box">
+        <h3>Soft Skills</h3>
+        <ul class="skills">
+          <li>Gestion de projets
+            <div class="progress-bar"><div class="progress" style="width:85%"></div></div>
+          </li>
+          <li>Analyse & Résolution
+            <div class="progress-bar"><div class="progress" style="width:75%"></div></div>
+          </li>
+          <li>Communication
+            <div class="progress-bar"><div class="progress" style="width:70%"></div></div>
+          </li>
+        </ul>
+      </div>
+      <div class="skills-box">
+        <h3>Hard Skills</h3>
+        <ul class="skills">
+          <li>HTML
+            <div class="progress-bar"><div class="progress" style="width:90%"></div></div>
+          </li>
+          <li>CSS
+            <div class="progress-bar"><div class="progress" style="width:70%"></div></div>
+          </li>
+          <li>JavaScript
+            <div class="progress-bar"><div class="progress" style="width:80%"></div></div>
+          </li>
+          <li>VS Code
+            <div class="progress-bar"><div class="progress" style="width:75%"></div></div>
+          </li>
+          <li>Network Administration
+            <div class="progress-bar"><div class="progress" style="width:80%"></div></div>
+          </li>
+          <li>Cloud Computing
+            <div class="progress-bar"><div class="progress" style="width:90%"></div></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>Football, basketball, lecture de la Bible, jeux vidéos et films.</p>
+  </section>
+
+  <!-- Sports -->
+  <section id="sports">
+    <h2>Activités sportives</h2>
+    <p>Basketball et la musculation.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Vous avez un <span>projet en tête</span> ?<br>N’hésitez pas à me <span>contacter</span></h2>
+      <form id="contactForm">
+        <div class="row-form">
+          <div class="col">
+            <label for="prenom">Votre prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="John" required>
+          </div>
+          <div class="col">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Doe" required>
+          </div>
+        </div>
+        <label for="sujet">Votre sujet</label>
+        <input type="text" id="sujet" name="sujet" placeholder="Développement d’un site web" required>
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+        <button type="submit">Envoyer</button>
+        <div id="formMessage" class="message"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="row">
+      <p>Designed by <strong><span style="color:#00e0c6;">Prince Marlain Dieubeni</span></strong> with HTML CSS JS</p>
+      <p>Tous droits réservés - 2025</p>
+    </div>
+  </footer>
+</body>
+</html>
