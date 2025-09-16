@@ -4,54 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Ing. Prince de Jésus KPAKO</title>
-  <!-- Lien vers le CSS séparé -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- En-tête -->
   <header>
-    <div class="left">
-      <h1>
-        <span class="lastname">KPAKO KOPIRIWA</span>
-        <span class="firstname">Prince Marlain Dieubeni</span>
-      </h1>
-    </div>
-    <div class="right">
-      <nav>
-        <a href="#intro">Accueil</a>
-        <a href="#about">À propos</a>
-        <a href="#projects">Projets</a>
-        <a href="#skills">Compétences</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#sports">Activités sportives</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <div class="left">
+    <h1>
+      <span class="lastname">KPAKO KOPIRIWA</span>
+      <span class="firstname">Prince Marlain Dieubeni</span>
+    </h1>
+  </div>
+  <div class="right">
+    <nav>
+      <a href="#intro">Accueil</a>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#skills">Compétences</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#sports">Activités sportives</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
   <!-- Bienvenue -->
   <section id="intro">
-    <h2>Bienvenue</h2>
-    <div class="row">
-      <p>Je suis <strong><span style="color:#00e0c6;">Prince Marlain Dieubeni</span></strong>, Développeur passionné par le web et le design !</p>
-      <img src="image/webo-3.jpg" alt="photo" class="profile">
-    </div>
-    <div class="cv-btn-container">
-      <a href="./pt/Projet.pdf" download>Télécharger mon Projet</a>
-    </div>
-  </section>
+  <h2>Bienvenue</h2>
+  <div class="row">
+    <p>Je suis <strong><span style="color:#00e0c6;">Prince Marlain Dieubeni</span></strong>, Développeur passionné par le web et le design !</p>
+    <img src="http://kpako.infinityfreeapp.com/wp-content/uploads/2025/09/webo-3.jpg" alt="photo" class="profile">
+  </div>
+  <div class="cv-btn-container">
+    <a href="http://kpako.infinityfreeapp.com/wp-content/uploads/2025/09/Projet.pdf" download>Télécharger mon Projet</a>
+  </div>
+</section>
 
-  <!-- À propos -->
+<!-- À propos -->
   <section id="about">
     <h2>À propos</h2>
     <div class="row">
       <p>Je m'appelle <strong><span style="color:#00e0c6;">KPAKO KOPIRIWA</span></strong>, passionné par la création de sites modernes et interactifs. 
-      Je suis ingénieur en réseaux et télécommunications avec plus de 5 ans d'expérience professionnelle. J’ai déployé de nombreuses solutions Cloud, réseaux et VoIP pour des entreprises. Freelance fiable en Développement web (JavaScript, HTML et CSS), rapide et efficace dans le domaine informatique complexe.
+        Je suis ingénieur en réseaux et télécommunications avec plus de 5 ans d'expérience professionnelle. J’ai déployé de nombreuses solutions Cloud, réseaux et VoIP pour des entreprises. Freelance fiable en Développement web (JavaScript, HTML et CSS), rapide et efficace dans le domaine informatique complexe.
       J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
-      <img src="image/Prince.jpg" alt="photo Ing. Prince de Jésus KPAKO" class="profile">
+      <img src="http://kpako.infinityfreeapp.com/wp-content/uploads/2025/09/Prince-1.jpg" alt="photo Ing. Prince de Jésus KPAKO" class="profile">
     </div>
     <div class="cv-btn-container" style="width: auto; padding-left: 0;">
-      <a href="./cv/kpako_cv.pdf" download>Télécharger mon CV</a>
+      <a href="http://kpako.infinityfreeapp.com/wp-content/uploads/2025/09/cv_prince_kpako.pdf" download>Télécharger mon CV</a>
     </div>
   </section>
 
@@ -133,32 +131,36 @@
     <p>Basketball et la musculation.</p>
   </section>
 
-  <!-- Contact -->
+<!-- Contact -->
   <section id="contact">
     <div class="contact-container">
       <h2>Vous avez un <span>projet en tête</span> ?<br>N’hésitez pas à me <span>contacter</span></h2>
+      
       <form id="contactForm">
         <div class="row-form">
           <div class="col">
             <label for="prenom">Votre prénom</label>
             <input type="text" id="prenom" name="prenom" placeholder="John" required>
           </div>
+
           <div class="col">
             <label for="nom">Votre nom</label>
             <input type="text" id="nom" name="nom" placeholder="Doe" required>
           </div>
         </div>
+
         <label for="sujet">Votre sujet</label>
         <input type="text" id="sujet" name="sujet" placeholder="Développement d’un site web" required>
+
         <label for="message">Votre message</label>
         <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+
         <button type="submit">Envoyer</button>
         <div id="formMessage" class="message"></div>
       </form>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div class="row">
       <p>Designed by <strong><span style="color:#00e0c6;">Prince Marlain Dieubeni</span></strong> with HTML CSS JS</p>
